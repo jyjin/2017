@@ -1,0 +1,22 @@
+{
+  "name": "07.material-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --host 127.0.0.1 --port 3333 --inline --hot"
+  },
+  "author": "jyjin",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "cross-env": "^5.1.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "postcss-cssnext": "^3.0.2",
+    "transform-runtime": "0.0.0",
+    "webpack": "^3.10.0"
+  }
+}

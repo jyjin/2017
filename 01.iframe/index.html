@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>子页面</title>
+    <style>
+        html,body{
+            margin:0;
+            padding:0;
+            width:100%;
+            height:100%;
+        }
+    </style>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body style="background: red">
+    <!-- <h1>子页面00000000001234141</h1> -->
+    <iframe src="http://192.168.129.21:5302/ixSettings/all/system/config" width="100%" height="100%" style="background:#fff"></iframe>
+    <!-- <script>
+        function getParentUrl() {
+            var url = null;
+            if (parent !== window) {//取iframe父页面的地址
+                try {
+                    url = parent.location.href;
+                } catch (e) {
+                    url = document.referrer;
+                }
+                var arr = url.split(':');
+                var arr1 = arr[2].split('/');
+                if (arr1.length) {
+                    url = arr[0] + ':' + arr[1] + ':' + arr1[0];
+                }
+            }
+            return url;
+        }
+        var url = getParentUrl();
+        console.log(url);
+    </script> -->
+</body>
+
+</html>
